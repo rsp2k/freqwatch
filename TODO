@@ -1,0 +1,6 @@
+freqwatch TODO
+* Add support for PostgreSQL and sqlite3
+* Store blacklist in database
+* prefix table entries with scanner id (get from rtl board or generate Guid)
+* gpsd support
+* hackrf support 
