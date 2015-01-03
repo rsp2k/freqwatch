@@ -13,7 +13,7 @@
 
 4) Edit fwsetup.sql to reflect your preferences (including password)
 
-5) From the freqwatch directory: $ cat fwsetup.sql | mysql -u root -p
+5) From the freqwatch directory: $ mysql -u root -p < fwsetup.sql
 
 6) Edit freqwatch.conf to reflect the database settings (and password),
    as well as your rtl-sdr stick configurations
